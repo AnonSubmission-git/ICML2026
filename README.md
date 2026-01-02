@@ -23,4 +23,4 @@ python3 fc_loop.py --cpu true --sample-only 2000 --max-steps 1000 --max_epochs 3
 
 The file PruferToTree.ipyn is SageMath code that is unnecessary for all of the above computation. It allows you to input any Prufer code, and it will output a drawing of the resulting tree. The file Problem_Erdos_IP.jl is Julia code which allows you to input a prufer code, and it will output its indepednence polynomial, as well as the value of the scoring function at every index of the independence sequence.
 
-Finally, the folder 60_vertex_output contains all of the output files from our application of these methods to the case of trees with 60 vertices.
+To see example outputs from an experiment run on trees with 60 vertices, please go to https://drive.google.com/drive/folders/1NGtZQuHoizdfD-myYz6Rk-fN6-WYvV3e?usp=share_link
